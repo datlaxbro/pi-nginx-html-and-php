@@ -15,17 +15,17 @@ nav ul {
     list-style-type: none;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 10px;
-}
+    nav ul li {
+        display: inline;
+        margin-right: 10px;
+    }
 
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
 
-/* Style the hero/Home section */
+/* Style the hero Home section */
 .hero {
     background-image: url('hero-background.jpg');
     background-size: cover;
@@ -60,9 +60,9 @@ nav ul li a {
     transition: background-color 0.3s ease;
 }
 
-.btn:hover {
-    background-color: #555;
-}
+    .btn:hover {
+        background-color: #555;
+    }
 
 /* Style the features section */
 .features {
@@ -75,14 +75,14 @@ nav ul li a {
     flex-basis: 30%;
 }
 
-.feature h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
+    .feature h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
 
-.feature p {
-    font-size: 16px;
-}
+    .feature p {
+        font-size: 16px;
+    }
 
 /* Style the content file section */
 .content {
@@ -118,8 +118,8 @@ p {
         font-size: 16px;
     }
 
-/* Style the content section About page */
-.content {
+/* Style the About page */
+.About {
     padding: 50px 0;
     text-align: center;
 }
@@ -139,7 +139,43 @@ p {
     margin-bottom: 30px;
 }
 
-/* Style the footer all pages*/
+/* Style the Contact page */
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.box {
+    width: calc(33.33% - 20px);
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+    .box .title {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: white;
+    }
+
+    .box .text {
+        margin-bottom: 10px;
+    }
+
+    .box .expand-button {
+        display: none;
+        margin-top: 10px;
+    }
+
+    .box.expanded .expand-button {
+        display: block;
+    }
+
+/* Style the footer all pages */
 footer {
     background-color: #333;
     color: #fff;
